@@ -1,0 +1,3 @@
+[submodule "TextWorld"]
+	path = TextWorld
+	url = https://github.com/Microsoft/TextWorld.git

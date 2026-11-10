@@ -1,0 +1,24 @@
+# Main dependencies
+numpy>=1.14.5
+tqdm>=4.17.1
+networkx>=2
+more_itertools
+tatsu==5.8.3
+hashids>=1.2.0
+jericho>=3.3.0
+mementos>=1.3.1
+termcolor
+
+# Serve games
+uvicorn[standard]
+fastapi
+
+# For advanced prompt
+prompt_toolkit
+
+# Models
+huggingface_hub
+transformers>=4.51
+torch
+accelerate
+bitsandbytes
