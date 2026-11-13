@@ -7,7 +7,7 @@
 #SBATCH --mem=64G
 #SBATCH --time=12:00:00
 #SBATCH --output=logs/gostak-%j.out
-#SBATCH --error=logsgostak-%j.err
+#SBATCH --error=logs/gostak-%j.err
 
 set -euo pipefail
 
